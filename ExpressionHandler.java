@@ -13,7 +13,16 @@ public class ExpressionHandler{
             return value;
         }
     }
-
+		
+		/**
+		 * Algebraic data type (example in Haskell: data Expr = Expr Opr Expr | Int)
+		 * In Grammar Theory notation: Expr -> Expr Opr Expr | Int
+		 *
+		 * <p>
+		 *		NOTE: with operators of same priority, Expressions on the left have higher priority in the moment of
+		 *		evaluation that Expressions on the right.
+		 * </p>
+		 */
     public static class Expression implements Expr {
         private final Expr left;
         private final Opr operator;
