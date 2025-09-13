@@ -1,6 +1,6 @@
 # A simple calculator that implements concepts from Formal Grammars theory
 
-If provided, reads expressions from an input file and write the evaluated results in a output file. E.g., exp.in and exp.out.Else, if one or both are not specified, it reads from / writes to System.In / System.Out.
+If provided, reads expressions from an input file and write the evaluated results in a output file. E.g., exp.in and exp.out. Else, if one or both are not specified, it reads from / writes to System.In / System.Out.
 
 - ExpressionHandler.java: defines the Expression class inspired by Algebraic Data Types
 
